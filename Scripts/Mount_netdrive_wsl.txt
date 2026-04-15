@@ -1,0 +1,14 @@
+sudo mount -t drvfs '\\uhhdisk.uni-hamburg.de\daten\pb' /mnt/uhhdisk -o username=UHHUSERNAME,password="9CJFfqf1E(xSS{u$cP)#"
+
+
+# Open up wsl.conf
+sudo nano /etc/wsl.conf
+# Enter this
+[automount]
+enabled = true
+mountFsTab = true
+
+# Open fstab
+sudo nano /etc/fstab
+# Enter this
+\\uhhdisk.uni-hamburg.de\daten\pb /mnt/uhhdisk drvfs username=bbc9148,password=9CJFfqf1E(xSS{u$cP)# 0 0
