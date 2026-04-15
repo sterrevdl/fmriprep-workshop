@@ -3,16 +3,6 @@
 This repository contains materials for an introductory workshop on fMRI preprocessing using **fMRIPrep**.
 The goal of this workshop is to provide a practical, hands-on introduction to reproducible preprocessing of fMRI data using BIDS-formatted datasets and containerized workflows.
 ---
-## 📁 Repository Structure
-
-fmriprep-workshop/
-├── Scripts/        # Helper scripts (e.g., folder mounting)
-├── Workshop.jpynb  # Jupyter notebooks
-├── Slides.ppt      # Teaching slides
-├── Datasets/       # Example datasets (zipped or sample data only)
-└── README.md       # Description of this repo
-
----
  
 ## 🧠 Workshop Content
  
@@ -26,7 +16,7 @@ During this workshop, participants will learn:
  
 ---
  
-## 🧪 Software Requirements
+## Software Requirements
  
 To run the pipeline locally, you will need:
  
@@ -36,7 +26,7 @@ To run the pipeline locally, you will need:
 - At least 8–16 GB RAM (recommended: 32 GB+)
  
  
-## 📊 Data
+## Data
  
 Example datasets used in this workshop are stored in the `Datasets/` folder.
 Unzip to your local machine before running HeuDiConv (BIDS conversion). 
