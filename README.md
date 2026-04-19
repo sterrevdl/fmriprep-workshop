@@ -11,9 +11,9 @@ Authors: Fabian Dorok and Sterre van de Langenberg
  
 During this workshop, participants will learn:
  
-- The BIDS data structure
-- How to run fMRIPrep using Docker
-- Understanding preprocessing outputs
+- The BIDS data structure and BIDS conversion using Heudiconv
+- How to run fMRIPrep using Docker (and WSL installation for Windows Users)
+- Understanding fMRIPrep outputs
 - Quality control of fMRI preprocessing
 - Basics of reproducible neuroimaging workflows
  
@@ -28,15 +28,15 @@ To run the pipeline locally, you will need:
 - A BIDS-formatted dataset
 - At least 8–16 GB RAM (recommended: 32 GB+)
  
- 
 ## Data
  
-Example datasets used in this workshop are stored in the `Datasets/` folder.
+Example datasets (defaced) used in this workshop are stored in the `Datasets/` folder.
 Unzip to your local machine before running HeuDiConv (BIDS conversion). 
 Data can also be found here: https://drive.google.com/file/d/1niOEgwtN6ZeyWhGzxSUMYGn_NtEUdrTl/view?usp=drive_link
 
-## Notebook
+## Code
 
 We created a Jupyter notebook for coding along at home (as a reference after the workshop). 
+We also uploaded a script on how to mount network drives in WSL (`Scripts/` folder). 
 
 
