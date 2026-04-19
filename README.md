@@ -33,7 +33,7 @@ To run the pipeline locally, you will need:
  
 Example datasets used in this workshop are stored in the `Datasets/` folder.
 Unzip to your local machine before running HeuDiConv (BIDS conversion). 
-https://drive.google.com/file/d/1niOEgwtN6ZeyWhGzxSUMYGn_NtEUdrTl/view?usp=drive_link
+Data can also be found here: https://drive.google.com/file/d/1niOEgwtN6ZeyWhGzxSUMYGn_NtEUdrTl/view?usp=drive_link
 
 ## Notebook
 
