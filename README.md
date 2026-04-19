@@ -2,6 +2,9 @@
 
 This repository contains materials for an introductory workshop on fMRI preprocessing using **fMRIPrep**.
 The goal of this workshop is to provide a practical, hands-on introduction to reproducible preprocessing of fMRI data using BIDS-formatted datasets and containerized workflows.
+
+Authors: Fabian Dorok and Sterre van de Langenberg
+
 ---
  
 ## 🧠 Workshop Content
